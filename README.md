@@ -50,3 +50,8 @@ cp .env.example .env
 
 #Run
 python bot.py
+
+#Notes
+Do not commit .env or any tokens.
+Voice recognition uses Google Speech Recognition (may fail depending on audio and limits).
+Image generation requires a valid OpenAI API key.
